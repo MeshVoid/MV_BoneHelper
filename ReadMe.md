@@ -1,10 +1,8 @@
-# MV_RigHelper_
+# MV_BoneHelper
 
-**MeshVoid's Rigging Helper Addon For Blender**
+**MeshVoid's Bone Helper Addon For Blender**
 
 An addon to ease the burden of a process of manual rigging in Blender
-
-
 
 #### **General rigging workflow tips**
 
@@ -42,8 +40,6 @@ and additional abbreviations include: ORG. ORG_
 
 WGT - widgets (geometrical custom shapes for selected bones)
 
-
-
 **Stages of rigging:**
 
 - Create Deformation Armature Bone hierarchy with proper naming convention and prefixes (One side is enough)
@@ -54,13 +50,9 @@ WGT - widgets (geometrical custom shapes for selected bones)
 
 Biped rigging tips:
 
-
-
 Leg rigging (Reverse foot rig mechanism)
 
 **Leg naming convention**
-
-
 
 DEF layer:
 
@@ -72,14 +64,12 @@ DEF.Shin.L/R
 
 
 
+
+
 ## **Initial TODO's for addon:**
-
-
 
 - [ ] Write an operator that duplicates and renames the deformation bones with DEF. DEF_ prefixes to TGT. TGT__ and then applies transform constraints to newly created target bones to copy DEF transformation values (also set 'deform' property of TGT bones to False)
 
 - [ ] 
 
 - [ ] 
-
-
